@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shree Ji Aluminium | Premium Aluminium & Glass</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0b0b0b;
+color:#fff;
+overflow-x:hidden;
+}
+
+body::-webkit-scrollbar{
+width:8px;
+}
+
+body::-webkit-scrollbar-thumb{
+background:#d4af37;
+border-radius:20px;
+}
+
+header{
+
+position:fixed;
+top:0;
+left:0;
+width:100%;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(0,0,0,.7);
+backdrop-filter:blur(15px);
+z-index:999;
+}
+
+.logo{
+
+font-size:28px;
+font-weight:700;
+color:#d4af37;
+letter-spacing:1px;
+
+}
+
+nav a{
+
+color:#fff;
+text-decoration:none;
+margin-left:25px;
+transition:.4s;
+
+}
+
+nav a:hover{
+
+color:#d4af37;
+
+}
+
+.hero{
+
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:
+linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
+url("project2.jpg");
+
+background-size:cover;
+background-position:center;
+
+}
+
+.hero h1{
+
+font-size:55px;
+color:#d4af37;
+
+}
+
+.hero p{
+
+margin-top:20px;
+font-size:20px;
+color:#ddd;
+max-width:800px;
+
+}
+
+.btn{
+
+display:inline-block;
+margin-top:35px;
+padding:15px 40px;
+border:2px solid #d4af37;
+color:#d4af37;
+text-decoration:none;
+border-radius:40px;
+transition:.4s;
+
+}
+
+.btn:hover{
+
+background:#d4af37;
+color:#000;
+transform:scale(1.06);
+
+}
+
+section{
+
+padding:90px 8%;
+
+}
+
+.title{
+
+font-size:40px;
+color:#d4af37;
+margin-bottom:30px;
+text-align:center;
+
+}
+
+.about{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:50px;
+align-items:center;
+
+}
+
+.about img{
+
+width:100%;
+border-radius:20px;
+border:3px solid #d4af37;
+
+}
+
+.about p{
+
+font-size:18px;
+line-height:1.9;
+color:#ddd;
+
+}
+
+.services{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+
+}
+
+.service{
+
+background:#161616;
+padding:30px;
+border-radius:20px;
+border:1px solid rgba(212,175,55,.4);
+transition:.4s;
+
+}
+
+.service:hover{
+
+transform:translateY(-12px);
+box-shadow:0 0 30px rgba(212,175,55,.3);
+
+}
+
+.service h3{
+
+color:#d4af37;
+margin-bottom:15px;
+
+}
+
+.gallery{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+
+}
+
+.gallery img{
+
+width:100%;
+border-radius:15px;
+cursor:pointer;
+transition:.5s;
+
+}
+
+.gallery img:hover{
+
+transform:scale(1.05);
+
+}
+
+.contact{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+
+}
+
+.box{
+
+background:#151515;
+padding:25px;
+border-radius:15px;
+border:1px solid rgba(212,175,55,.4);
+
+}
+
+.box h3{
+
+color:#d4af37;
+margin-bottom:15px;
+
+}
+
+footer{
+
+padding:25px;
+text-align:center;
+background:#000;
+
+}
+
+.whatsapp{
+
+position:fixed;
+right:25px;
+bottom:25px;
+width:65px;
+height:65px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:30px;
+color:#fff;
+text-decoration:none;
+box-shadow:0 0 20px rgba(0,255,100,.5);
+
+}
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:36px;
+
+}
+
+nav{
+
+display:none;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+Shree Ji Aluminium
+
+</div>
+
+<nav>
+
+<a href="#">Home</a>
+
+<a href="#about">About</a>
+
+<a href="#services">Services</a>
+
+<a href="#gallery">Gallery</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>Premium Aluminium & Glass Solutions</h1>
+
+<p>
+
+Quality Aluminium Windows, ACP Cladding, Glass Partitions,
+Sliding Doors and Modern Fabrication Work.
+
+</p>
+
+<a href="#contact" class="btn">
+
+Contact Us
+
+</a>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<h2 class="title">About Us</h2>
+
+<div class="about">
+
+<img src="project1.jpg">
+
+<div>
+
+<p>
+
+<b>Shree Ji Aluminium</b> is one of the trusted names in Aluminium & Glass fabrication located in <b>Ricco Area, Deoli, Tonk, Rajasthan</b>.
+
+We provide premium quality aluminium doors, windows, office partitions, ACP cladding, toughened glass, railings and customized fabrication with modern designs and excellent finishing.
+
+Our goal is customer satisfaction with quality workmanship and durable materials.
+
+</p>
+
+<br>
+
+<a href="tel:7340134656" class="btn">
+
+📞 Call Now
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- SERVICES -->
+
+<section id="services">
+
+<h2 class="title">
+
+Our Services
+
+</h2>
+
+<div class="services">
+
+<div class="service">
+
+<h3>Aluminium Windows</h3>
+
+<p>Premium sliding and openable aluminium windows with modern design.</p>
+
+</div>
+
+<div class="service">
+
+<h3>Sliding Doors</h3>
+
+<p>Strong aluminium sliding doors for homes and offices.</p>
+
+</div>
+
+<div class="service">
+
+<h3>Glass Partitions</h3>
+
+<p>Elegant office and commercial glass partition systems.</p>
+
+</div>
+
+<div class="service">
+
+<h3>ACP Cladding</h3>
+
+<p>Exterior ACP elevation work with premium finish.</p>
+
+</div>
+
+<div class="service">
+
+<h3>Toughened Glass</h3>
+
+<p>High quality toughened safety glass installation.</p>
+
+</div>
+
+<div class="service">
+
+<h3>Custom Fabrication</h3>
+
+<p>Custom aluminium fabrication according to your needs.</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- GALLERY -->
+
+<section id="gallery">
+
+<h2 class="title">
+
+Our Projects
+
+</h2>
+
+<div class="gallery">
+
+<img src="download.jpeg">
+
+<img src="images (1).jpeg">
+
+<img src="images (2).jpeg">
+
+<img src="images (3).jpeg">
+
+<img src="images (5).jpeg">
+
+
+
+</div>
+
+</section>
+
+
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<h2 class="title">
+
+Contact Us
+
+</h2>
+
+<div class="contact">
+
+<div class="box">
+
+<h3>📞 Phone</h3>
+
+<p>
+
+7340134656
+
+</p>
+
+<br>
+
+<p>
+
+9672939420
+
+</p>
+
+</div>
+
+<div class="box">
+
+<h3>📍 Address</h3>
+
+<p>
+
+Ricco Area,
+
+Deoli,
+
+Tonk,
+
+Rajasthan
+
+</p>
+
+</div>
+
+<div class="box">
+
+<h3>WhatsApp</h3>
+
+<p>
+
+Click the floating button to chat instantly.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<footer>
+
+<h2 style="color:#d4af37">
+
+Shree Ji Aluminium
+
+</h2>
+
+<br>
+
+<p>
+
+Premium Aluminium & Glass Solutions
+
+</p>
+
+<br>
+
+<p>
+
+© 2026 All Rights Reserved.
+
+</p>
+
+</footer>
+
+
+
+<a class="whatsapp"
+
+href="https://wa.me/917340134656"
+
+target="_blank">
+
+💬
+
+</a>
+<script>
+
+// Loading Animation
+window.addEventListener("load",()=>{
+document.body.style.opacity="0";
+setTimeout(()=>{
+document.body.style.transition="1s";
+document.body.style.opacity="1";
+},100);
+});
+
+// Scroll Animation
+
+const observer=new IntersectionObserver(entries=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.style.opacity="1";
+entry.target.style.transform="translateY(0)";
+
+}
+
+});
+
+});
+
+document.querySelectorAll("section").forEach(sec=>{
+
+sec.style.opacity="0";
+
+sec.style.transform="translateY(60px)";
+
+sec.style.transition=".8s";
+
+observer.observe(sec);
+
+});
+
+// Image Zoom
+
+const imgs=document.querySelectorAll(".gallery img");
+
+imgs.forEach(img=>{
+
+img.addEventListener("click",()=>{
+
+let overlay=document.createElement("div");
+
+overlay.style.position="fixed";
+
+overlay.style.left="0";
+
+overlay.style.top="0";
+
+overlay.style.width="100%";
+
+overlay.style.height="100%";
+
+overlay.style.background="rgba(0,0,0,.9)";
+
+overlay.style.display="flex";
+
+overlay.style.justifyContent="center";
+
+overlay.style.alignItems="center";
+
+overlay.style.zIndex="99999";
+
+let image=document.createElement("img");
+
+image.src=img.src;
+
+image.style.maxWidth="90%";
+
+image.style.maxHeight="90%";
+
+image.style.border="5px solid gold";
+
+image.style.borderRadius="15px";
+
+overlay.appendChild(image);
+
+overlay.onclick=()=>overlay.remove();
+
+document.body.appendChild(overlay);
+
+});
+
+});
+
+// Scroll To Top Button
+
+const topBtn=document.createElement("button");
+
+topBtn.innerHTML="↑";
+
+topBtn.style.position="fixed";
+
+topBtn.style.bottom="100px";
+
+topBtn.style.right="25px";
+
+topBtn.style.width="50px";
+
+topBtn.style.height="50px";
+
+topBtn.style.borderRadius="50%";
+
+topBtn.style.border="none";
+
+topBtn.style.background="gold";
+
+topBtn.style.fontSize="22px";
+
+topBtn.style.cursor="pointer";
+
+topBtn.style.display="none";
+
+topBtn.style.zIndex="9999";
+
+document.body.appendChild(topBtn);
+
+window.addEventListener("scroll",()=>{
+
+if(window.scrollY>400){
+
+topBtn.style.display="block";
+
+}else{
+
+topBtn.style.display="none";
+
+}
+
+});
+
+topBtn.onclick=()=>{
+
+window.scrollTo({
+
+top:0,
+
+behavior:"smooth"
+
+});
+
+};
+
+// Smooth Navbar
+
+document.querySelectorAll("nav a").forEach(link=>{
+
+link.onclick=(e)=>{
+
+e.preventDefault();
+
+const id=link.getAttribute("href");
+
+document.querySelector(id).scrollIntoView({
+
+behavior:"smooth"
+
+});
+
+};
+
+});
+
+</script>
+
+</body>
+
+</html>
